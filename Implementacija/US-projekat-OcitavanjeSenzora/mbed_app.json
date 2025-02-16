@@ -1,0 +1,18 @@
+{
+    "config": {
+        "wifi-ssid": {
+            "help": "WiFi SSID",
+            "value": "\"E74KS-7\""
+        },
+        "wifi-password": {
+            "help": "WiFi Password",
+            "value": "\"popokatepetlpopokatepetl\""
+        }
+    },
+    "target_overrides": {
+        "*": {
+            "platform.stdio-convert-newlines": true,
+            "esp8266.provide-default" : true
+        }
+    }
+}
